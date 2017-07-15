@@ -1,0 +1,58 @@
+
+
+/** specific to Swiss Rounds **/
+.new-match {
+	border-radius: 10px;
+	border: 1px solid black;
+	margin: 5px;
+	padding: 20px;
+	width: 300px;
+	float:left;
+}
+
+.finished-match, no-save {
+	border-radius: 10px;
+	border: 1px solid black;
+	margin: 5px;
+	padding: 20px;
+	width: 300px;
+	float:left;
+	white-space: nowrap
+}
+
+.edit-match {
+	float:right;
+}
+
+.clear {
+	width:100%;
+	clear:both;
+	height:15px;
+}
+
+span.tie {
+	display: inline-block;
+	background:yellow;
+}
+
+span.win {
+	display: inline-block;
+	background:lightgreen;
+}
+
+span.invalid {
+	display: inline-block;
+	background:salmon;
+}
+
+.plugin-actions {
+	display: inline-block;
+}
+.plugin-actions a {
+    display: block;
+}
+
+.plugin-actions a:hover{
+	color: #116d76;
+	text-decoration: underline;
+}
